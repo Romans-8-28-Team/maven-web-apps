@@ -1,6 +1,6 @@
 //Jenkins pipeline script
 //Groovy script 
-
+// test
 node{
   def mavenHome = tool name: 'maven3.8.1'
   stage('CodeClone') {
